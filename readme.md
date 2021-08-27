@@ -1,25 +1,22 @@
-# NLW Valoriza
+# NLW VALORIZA 🤝🏼
 
-## Regras
+<img src="public/img/nlwvaloriza-screenshot.jpg" alt="nlwvaloriza-screenshot">
 
-- Cadastro de usuário
+## ✨ Tecnologias utilizadas
 
-    [ ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [JsonWebToken](https://jwt.io/introduction)
+- [TypeORM](https://typeorm.io/#/)
 
-    [ ] Não é permitido cadastrar usuário sem e-mail
+## 🧑🏼‍🤝‍🧑🏼 Projeto
 
-- Cadastro de TAG
+O NLW Valoriza é um aplicação com o objetivo de elogiar os companheiros e melhorar o relacionamento entre os usuários
 
-    [ ] Não é permitido cadastrar mais de uma TAG com o mesmo nome
+## 😕 Como executar
 
-    [ ] Não é permitido cadastrar TAG sem nome
-
-    [ ] Não é permitido o cadastro por usuários que não sejam administradores
-
-- Cadastro de elogios
-
-    [ ] Não é permitido um usuário cadastrar um elogio para si
-
-    [ ] Não é permitido cadastrar elogios para usuários inválidos
-
-    [ ] O usuário precisa ser autenticado na aplicação
+- Clone o repositório
+- Rode o "yarn" para baixar as dependências
+- Rode o comando "yarn typeorm migration:run" para inicializar o banco de dados
+- Rode "yarn dev" para rodar a aplicação
